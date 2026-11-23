@@ -38,7 +38,7 @@ export interface SearchOptions {
   denseWeight?: number;
 }
 
-const DEFAULTS: Required<SearchOptions> = { limit: 10, minSimilarity: 0.70, minBm25Score: 6, denseWeight: 0.25 };
+const DEFAULTS: Required<SearchOptions> = { limit: 10, minSimilarity: 0.72, minBm25Score: 6, denseWeight: 0.25 };
 
 export interface SearchIndex {
   chunks: GuideChunkWithVector[];
