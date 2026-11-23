@@ -1,4 +1,4 @@
-# Modern Backend Guidance
+# Dotnet Backend Guidance
 
 Curated best practices for C#/.NET backend development (ASP.NET Core APIs, the service layer, and EF Core data access), searchable locally and offline by developers and coding agents. Modeled on Google's [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance-src); see [docs/modern-web-guidance-architecture.html](docs/modern-web-guidance-architecture.html).
 
