@@ -10,7 +10,8 @@
     "url": "https://github.com/ErikMogensenDK/ModernBackendGuidance.git"
   },
   "bin": {
-    "dotnet-backend-guidance": "dist/cli.mjs"
+    "dotnet-backend-guidance": "dist/cli.mjs",
+    "dbg": "dist/cli.mjs"
   },
   "files": [
     "dist"
