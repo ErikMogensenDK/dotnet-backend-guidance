@@ -1,0 +1,10 @@
+dotnet-backend-guidance
+
+This product includes software adapted from Modern Web Guidance
+(https://github.com/GoogleChrome/modern-web-guidance-src), Copyright 2026 Google LLC,
+licensed under the Apache License, Version 2.0. Adapted files name their upstream source
+and summarize the changes in a header comment:
+
+  src/search/bm25.ts, src/search/quantize.ts, src/search/static-embedder.ts,
+  src/search/search.ts, src/search/index-files.ts, src/search/tokenize.ts,
+  src/build/chunk.ts, src/build/chunk-cache.ts

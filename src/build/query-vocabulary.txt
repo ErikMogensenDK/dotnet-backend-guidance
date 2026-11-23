@@ -1,0 +1,37 @@
+# Words developers and agents type in search queries that may not appear in the guides.
+# Each is embedded as a query word, so queries using them still get a meaningful vector.
+add build create make write implement configure setup set register enable disable
+fix avoid prevent stop handle catch throw return send receive call invoke
+read write load save store persist fetch get post put patch delete remove update insert upsert
+query queries filter sort order page paging paginate pagination limit offset cursor
+fast faster slow slowness performance perf speed latency throughput scale scaling
+memory leak leaks cpu thread threads threading deadlock hang hangs freeze blocking concurrency parallel
+error errors exception exceptions failure failures fail failing failed crash crashes bug bugs
+retry retries retrying flaky transient timeout timeouts outage resilient resilience fallback
+secure security safe safely protect protection attack injection vulnerability vulnerable
+login logout signin signup auth authenticate authentication authorize authorization permission permissions role roles claim claims token tokens jwt bearer oauth oidc identity user users
+password secret secrets key keys credential credentials
+api apis endpoint endpoints route routes routing controller controllers rest http https request requests response responses status code codes header headers body json payload
+version versions versioning breaking deprecate deprecated deprecation contract contracts
+document documentation docs swagger openapi schema spec
+validate validation validator input inputs invalid required rule rules
+limit limits throttle throttling quota abuse spam ddos
+cancel cancellation cancelled abort aborted disconnect client clients
+health healthy liveness readiness probe probes monitor monitoring
+service services dependency dependencies inject injection container lifetime lifetimes singleton scoped transient
+config configuration settings setting options appsettings environment environments variable variables
+background job jobs worker workers queue queues schedule scheduled scheduler cron recurring periodic timer
+log logs logging logger trace traces tracing metric metrics telemetry observability diagnostics debug debugging
+cache caching cached invalidate invalidation expire expiration stale redis distributed
+async await asynchronous synchronous sync task tasks concurrent
+result results outcome success business domain logic rules expected unexpected
+time date dates clock timezone utc now testable test tests testing unit integration mock mocks fake
+database db sql table tables row rows column columns index indexes schema migration migrations migrate deploy deployment
+orm entity entities model models context dbcontext ef efcore core repository repositories
+transaction transactions commit rollback atomic consistency consistent lock locking conflict conflicts concurrent
+bulk batch batches mass many large huge thousands millions
+include join joins related relationship relationships navigation lazy eager loading load n+1
+raw stored procedure procedures parameter parameters parameterized
+map mapping mapped convert conversion configure fluent attribute attributes
+postgres postgresql sqlserver sqlite mysql container containers docker testcontainers
+microservice microservices production prod startup shutdown graceful

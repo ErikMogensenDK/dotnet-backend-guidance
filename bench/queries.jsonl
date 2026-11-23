@@ -1,0 +1,100 @@
+{"query": "organize minimal api endpoints", "expected": ["minimal-api-endpoint-organization"]}
+{"query": "group routes with common prefix", "expected": ["minimal-api-endpoint-organization"]}
+{"query": "typed results return type for endpoint", "expected": ["minimal-api-endpoint-organization"]}
+{"query": "global exception handler api", "expected": ["problem-details-error-handling"]}
+{"query": "consistent error response format", "expected": ["problem-details-error-handling"]}
+{"query": "hide stack trace in production errors", "expected": ["problem-details-error-handling"]}
+{"query": "validate request body", "expected": ["request-validation"]}
+{"query": "return 400 when input is invalid", "expected": ["request-validation"]}
+{"query": "data annotations minimal api", "expected": ["request-validation"]}
+{"query": "generate swagger docs", "expected": ["openapi-documentation"]}
+{"query": "describe endpoints for api clients", "expected": ["openapi-documentation"]}
+{"query": "openapi document for minimal apis", "expected": ["openapi-documentation"]}
+{"query": "version my rest api", "expected": ["api-versioning"]}
+{"query": "introduce breaking change v2 endpoint", "expected": ["api-versioning"]}
+{"query": "deprecate old api version", "expected": ["api-versioning"]}
+{"query": "protect endpoints with jwt", "expected": ["jwt-authentication-authorization"]}
+{"query": "require admin role for endpoint", "expected": ["jwt-authentication-authorization"]}
+{"query": "validate bearer token audience", "expected": ["jwt-authentication-authorization"]}
+{"query": "throttle requests per user", "expected": ["rate-limiting"]}
+{"query": "return 429 too many requests", "expected": ["rate-limiting"]}
+{"query": "protect api from abuse", "expected": ["rate-limiting"]}
+{"query": "paginate list endpoint", "expected": ["pagination-and-filtering"]}
+{"query": "cursor based paging api", "expected": ["pagination-and-filtering"]}
+{"query": "limit page size of results", "expected": ["pagination-and-filtering"]}
+{"query": "stop work when client disconnects", "expected": ["request-cancellation-and-timeouts"]}
+{"query": "request timeout for slow endpoint", "expected": ["request-cancellation-and-timeouts"]}
+{"query": "pass cancellation token to endpoint", "expected": ["request-cancellation-and-timeouts"]}
+{"query": "kubernetes readiness probe endpoint", "expected": ["health-checks"]}
+{"query": "check database connectivity health", "expected": ["health-checks"]}
+{"query": "liveness endpoint", "expected": ["health-checks"]}
+{"query": "scoped service inside singleton", "expected": ["dependency-injection-lifetimes"]}
+{"query": "choose service lifetime", "expected": ["dependency-injection-lifetimes"]}
+{"query": "register multiple implementations by key", "expected": ["dependency-injection-lifetimes"]}
+{"query": "bind configuration section to class", "expected": ["options-pattern-configuration"]}
+{"query": "validate settings at startup", "expected": ["options-pattern-configuration"]}
+{"query": "reload config without restart", "expected": ["options-pattern-configuration"]}
+{"query": "call external http api reliably", "expected": ["resilient-http-calls"]}
+{"query": "retry transient http failures", "expected": ["resilient-http-calls"]}
+{"query": "socket exhaustion httpclient", "expected": ["resilient-http-calls"]}
+{"query": "run recurring job in background", "expected": ["background-services"]}
+{"query": "hosted service with scoped dependencies", "expected": ["background-services"]}
+{"query": "worker that processes a queue", "expected": ["background-services"]}
+{"query": "log with structured properties", "expected": ["structured-logging"]}
+{"query": "high performance logging source generator", "expected": ["structured-logging"]}
+{"query": "avoid string interpolation in log messages", "expected": ["structured-logging"]}
+{"query": "cache expensive lookups", "expected": ["caching-with-hybridcache"]}
+{"query": "prevent cache stampede", "expected": ["caching-with-hybridcache"]}
+{"query": "distributed cache with redis", "expected": ["caching-with-hybridcache"]}
+{"query": "deadlock calling async from sync", "expected": ["async-await-best-practices"]}
+{"query": "run independent tasks concurrently", "expected": ["async-await-best-practices"]}
+{"query": "when to use valuetask", "expected": ["async-await-best-practices"]}
+{"query": "return errors without throwing exceptions", "expected": ["expected-failures-result-pattern"]}
+{"query": "model business rule failures", "expected": ["expected-failures-result-pattern"]}
+{"query": "exceptions for control flow", "expected": ["expected-failures-result-pattern"]}
+{"query": "unit test code that depends on current time", "expected": ["time-abstraction-testability"]}
+{"query": "replace DateTime.Now", "expected": ["time-abstraction-testability"]}
+{"query": "fake clock in tests", "expected": ["time-abstraction-testability"]}
+{"query": "distributed tracing across services", "expected": ["observability-opentelemetry"]}
+{"query": "export metrics with otlp", "expected": ["observability-opentelemetry"]}
+{"query": "custom spans and counters", "expected": ["observability-opentelemetry"]}
+{"query": "use dbcontext in background service", "expected": ["dbcontext-lifetime-and-pooling", "background-services"]}
+{"query": "dbcontext thread safety", "expected": ["dbcontext-lifetime-and-pooling"]}
+{"query": "context pooling for performance", "expected": ["dbcontext-lifetime-and-pooling"]}
+{"query": "read only queries faster", "expected": ["read-only-queries-and-projections"]}
+{"query": "select only needed columns into dto", "expected": ["read-only-queries-and-projections"]}
+{"query": "disable change tracking", "expected": ["read-only-queries-and-projections"]}
+{"query": "too many database queries in a loop", "expected": ["avoiding-n-plus-one-queries"]}
+{"query": "load related entities efficiently", "expected": ["avoiding-n-plus-one-queries"]}
+{"query": "cartesian explosion include", "expected": ["avoiding-n-plus-one-queries"]}
+{"query": "apply schema changes in production", "expected": ["migrations-in-deployment"]}
+{"query": "run ef migrations in ci pipeline", "expected": ["migrations-in-deployment"]}
+{"query": "database migrate on startup", "expected": ["migrations-in-deployment"]}
+{"query": "update many rows at once", "expected": ["bulk-updates-and-deletes"]}
+{"query": "delete records without loading them", "expected": ["bulk-updates-and-deletes"]}
+{"query": "efficient mass update", "expected": ["bulk-updates-and-deletes"]}
+{"query": "two users edit same record", "expected": ["optimistic-concurrency"]}
+{"query": "rowversion concurrency token", "expected": ["optimistic-concurrency"]}
+{"query": "detect lost updates", "expected": ["optimistic-concurrency"]}
+{"query": "wrap several saves in a transaction", "expected": ["transactions-and-retries"]}
+{"query": "retry on transient database errors", "expected": ["transactions-and-retries"]}
+{"query": "execution strategy with user transaction", "expected": ["transactions-and-retries"]}
+{"query": "prevent sql injection", "expected": ["raw-sql-safely"]}
+{"query": "run a custom sql query", "expected": ["raw-sql-safely"]}
+{"query": "call stored procedure", "expected": ["raw-sql-safely"]}
+{"query": "configure entity mappings", "expected": ["entity-configuration"]}
+{"query": "set decimal precision for all properties", "expected": ["entity-configuration"]}
+{"query": "value converter for enum", "expected": ["entity-configuration"]}
+{"query": "integration test with real database", "expected": ["testing-data-access"]}
+{"query": "in memory provider for tests", "expected": ["testing-data-access"]}
+{"query": "testcontainers sql server", "expected": ["testing-data-access"]}
+{"query": "center a div with flexbox", "expected": []}
+{"query": "animate modal dialog", "expected": []}
+{"query": "react useEffect cleanup", "expected": []}
+{"query": "kubernetes helm chart values", "expected": []}
+{"query": "python pandas dataframe merge", "expected": []}
+{"query": "docker multi stage build", "expected": []}
+{"query": "best pizza in copenhagen", "expected": []}
+{"query": "css dark mode toggle", "expected": []}
+{"query": "terraform aws vpc module", "expected": []}
+{"query": "git rebase interactive", "expected": []}
