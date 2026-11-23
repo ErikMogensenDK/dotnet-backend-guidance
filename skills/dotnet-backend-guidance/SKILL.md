@@ -5,7 +5,7 @@ description: "Searches local C#/.NET backend best practices before implementing 
 
 # dotnet-backend-guidance — local use
 
-Use the locally installed `dotnet-backend-guidance` command, not `npx` or an npm registry download. Search before implementing .NET backend changes.
+Use the locally installed `dotnet-backend-guidance` command. Search and review relevant results before implementing .NET backend changes.
 
 1. Search one capability at a time with a short English query:
 
